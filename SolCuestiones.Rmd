@@ -33,7 +33,10 @@ str_count(texto, pattern = "^[ ][aeiou]")
 # Cuestión 2
 ```{r}
 #Leemos el fichero.
-fich <- read.csv("data/Nosotros.tsv")
+library(readr)
+Nosotros <- read_delim("data/Nosotros.tsv", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE)
 
 
 ```
