@@ -38,7 +38,7 @@ Nosotros <- read_delim("data/Nosotros.tsv",
     delim = "\t", escape_double = FALSE, 
     trim_ws = TRUE)
 
-
+sum(Nosotros$Age)
 ```
 
 
