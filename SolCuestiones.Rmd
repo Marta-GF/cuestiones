@@ -11,6 +11,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Cuestión 1
 ```{r}
+#Cargamos la librería.
+library(stringr)
+
+#Asignamos el texto a la variable 'texto'.
+texto <- c("Pues sé Vuestra Merced, ante todas cosas, que a mí llaman Lázaro de Tormes, hijo de Tomé González y de Antona Pérez, naturales de Tejares, aldea de Salamanca. Mi nacimiento fue dentro del río Tormes, por la que causa tomó el sobrenombre; y fue de este modo: mi padre, que Dios perdone, tenía cargo de proveer una molida de una aceña que está ribera de aquel río, en la que fue molinero más de quince años; y, estando mi madre una noche en la aceña, preñada de mí, tomóle el parto y parióme allí. De modo que con verdad me puedo decir nacido en el río. Pues siendo yo niño de ocho años, achacaron a mi padre ciertas sangrías mal hechas en los costales de los que allí a molir venían, por lo que fue prisionero, y confesó y no negó, y padeció persecución por justicia. Espero en Dios que está en la gloria, pues el Evangelio les llama bienaventurados. En ese tiempo se hizo cierta armada contra moros, entre los cuales fue mi padre (que en la sazón estaba desterrado por el desastre ya dicho), con cargo de acemilero de un caballero que allá fue. Y como su señor, como leal criado, termina su vida. Mi viuda madre, como sin marido y sin abrigo se viese, determinó arrimarse a los buenos por ser uno de ellos, y vínose a vivir en la ciudad y alquiló una casilla y metióse a guisar de comer a ciertos estudiantes, y lavaba la ropa a ciertos mozos de caballos del comendador de la Magdalena, por lo que fue frecuentando las caballerizas.” feneción su vida. Mi viuda madre, como sin marido y sin abrigo se viese, determinó arrimarse a los buenos por ser uno de ellos, y vínose a vivir en la ciudad y alquiló una casilla y metióse a guisar de comer a ciertos estudiantes, y lavaba la ropa a ciertos mozos de caballos del comendador de la Magdalena, por lo que fue frecuentando las caballerizas.” feneción su vida. Mi viuda madre, como sin marido y sin abrigo se viese, determinó arrimarse a los buenos por ser uno de ellos, y vínose a vivir en la ciudad y alquiló una casilla y metióse a guisar de comer a ciertos estudiantes, y lavaba la ropa a ciertos mozos de caballos del comendador de la Magdalena, por lo que fue frecuentando las caballerizas.")
+
+#Contamos las vocales.
+str_count(texto, pattern = "[aeiou]")
 
 ```
 
