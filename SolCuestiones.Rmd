@@ -1,0 +1,16 @@
+---
+title: "Cuestiones"
+author: "Marta García Frechina"
+date: "2023-05-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Cuestión 1
+```{r}
+
+```
+
